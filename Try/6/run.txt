@@ -1,0 +1,5 @@
+javac *.java
+java Bully
+
+javac *.java
+java Ring

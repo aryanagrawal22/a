@@ -1,0 +1,12 @@
+T1:
+javac *.java
+rmic AddServerImpl
+
+T2:
+rmiregistry
+
+T3:
+java AddServer
+
+T4:
+java AddClient 127.0.0.1 5 8
